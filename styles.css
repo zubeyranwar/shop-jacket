@@ -94,16 +94,17 @@ body {
 .details-item h6 {
   font-size: 1.02rem;
   color: #222222af;
+  cursor: pointer;
 }
 
-.details-item h6:hover {
+.details-item:hover h6 {
   text-decoration: underline;
   color: #222;
   transition: all 0.2s;
 }
 
 .arrow {
-  display: none;
+  opacity: 0;
 }
 
 .arrow i {
@@ -111,7 +112,7 @@ body {
 }
 
 .details-item:hover .arrow {
-  display: initial;
+  opacity: 1;
 }
 
 .product-img {
